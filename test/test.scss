@@ -1,0 +1,21 @@
+@import "../scss/animate";
+
+
+div#1 {
+	
+	@include animate(5s infinite) {
+		0% { background-color: red; }
+		50% { background-color: green; }
+		100% { background-color: red; }
+	}
+	
+}
+
+div#2 {
+	
+	@include animate(12s linear) {
+		from { left: 0px; }
+		to { left: 500px }
+	}
+	
+}

@@ -1,0 +1,24 @@
+// css animation property abstractor.
+//
+//Usage:
+//	@include animation(<name> [<duration>] [<timing-function>] [<delay>] [<iteration-count>] [<direction>] [<fill-mode>] [<play-state>]);
+//
+//Example:
+//	div {
+//		@include animation(bgChanges 10s infinite);
+//	}
+//	...
+//
+//Output:
+//	div {
+//		-webkit-animation: bgChanges 10s infinite;
+//		-moz-animation: bgChanges 10s infinite;
+//		animation: bgChanges 10s infinite;
+//	}
+//	...
+
+@mixin animation($params...) {
+	-webkit-animation: $params;
+	-moz-animation: $params;
+	animation: $params;
+}

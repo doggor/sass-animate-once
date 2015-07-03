@@ -1,0 +1,51 @@
+div#1 {
+  -webkit-animation: ssa-u74a37395 5s infinite;
+  -moz-animation: ssa-u74a37395 5s infinite;
+  animation: ssa-u74a37395 5s infinite; }
+
+@-webkit-keyframes ssa-u74a37395 {
+  0% {
+    background-color: red; }
+  50% {
+    background-color: green; }
+  100% {
+    background-color: red; } }
+
+@-moz-keyframes ssa-u74a37395 {
+  0% {
+    background-color: red; }
+  50% {
+    background-color: green; }
+  100% {
+    background-color: red; } }
+
+@keyframes ssa-u74a37395 {
+  0% {
+    background-color: red; }
+  50% {
+    background-color: green; }
+  100% {
+    background-color: red; } }
+
+div#2 {
+  -webkit-animation: ssa-u8afb37fc 12s linear;
+  -moz-animation: ssa-u8afb37fc 12s linear;
+  animation: ssa-u8afb37fc 12s linear; }
+
+@-webkit-keyframes ssa-u8afb37fc {
+  from {
+    left: 0px; }
+  to {
+    left: 500px; } }
+
+@-moz-keyframes ssa-u8afb37fc {
+  from {
+    left: 0px; }
+  to {
+    left: 500px; } }
+
+@keyframes ssa-u8afb37fc {
+  from {
+    left: 0px; }
+  to {
+    left: 500px; } }

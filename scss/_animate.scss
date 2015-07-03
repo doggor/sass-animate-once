@@ -1,0 +1,48 @@
+// sass mixin that help writing animation.
+//
+//Example:
+//	div {
+//		@include animate(10s infinite) {
+//			from { background-color: red; }
+//			to   { background-color: green; }
+//	}
+//
+//Output:
+//	div {
+//		-webkit-animation: ssa-u8a16c123 10s infinite;
+//		-moz-animation: ssa-u8a16c123 10s infinite;
+//		animation: ssa-u8a16c123 10s infinite;
+//	}
+//	@-webkit-keyframes(ssa-u8a16c123) {
+//		from { background-color: red; }
+//		to   { background-color: green; }
+//	}
+//	@-moz-keyframes(ssa-u8a16c123) {
+//		from { background-color: red; }
+//		to   { background-color: green; }
+//	}
+//	@keyframes #{$name}(ssa-u8a16c123) {
+//		from { background-color: red; }
+//		to   { background-color: green; }
+//	}
+
+
+
+
+//inject dependencies
+@import "animation";
+@import "keyframes";
+
+
+@mixin animate($params) {
+	//get a random, unique name for the animation
+	$uniqueName: unquote("ssa-#{unique_id()}");
+	
+	//add animation properties
+	@include animation( join($uniqueName, $params) );
+	
+	//add keyframes
+	@include keyframes($uniqueName) {
+		@content;
+	}
+}
