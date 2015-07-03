@@ -1,9 +1,9 @@
 div#1 {
-  -webkit-animation: ssa-u74a37395 5s infinite;
-  -moz-animation: ssa-u74a37395 5s infinite;
-  animation: ssa-u74a37395 5s infinite; }
+  -webkit-animation: ssa-u8d07cede 5s infinite;
+  -moz-animation: ssa-u8d07cede 5s infinite;
+  animation: ssa-u8d07cede 5s infinite; }
 
-@-webkit-keyframes ssa-u74a37395 {
+@-webkit-keyframes ssa-u8d07cede {
   0% {
     background-color: red; }
   50% {
@@ -11,7 +11,7 @@ div#1 {
   100% {
     background-color: red; } }
 
-@-moz-keyframes ssa-u74a37395 {
+@-moz-keyframes ssa-u8d07cede {
   0% {
     background-color: red; }
   50% {
@@ -19,7 +19,7 @@ div#1 {
   100% {
     background-color: red; } }
 
-@keyframes ssa-u74a37395 {
+@keyframes ssa-u8d07cede {
   0% {
     background-color: red; }
   50% {
@@ -28,23 +28,23 @@ div#1 {
     background-color: red; } }
 
 div#2 {
-  -webkit-animation: ssa-u8afb37fc 12s linear;
-  -moz-animation: ssa-u8afb37fc 12s linear;
-  animation: ssa-u8afb37fc 12s linear; }
+  -webkit-animation: ssa-ub9aeae40 12s linear;
+  -moz-animation: ssa-ub9aeae40 12s linear;
+  animation: ssa-ub9aeae40 12s linear; }
 
-@-webkit-keyframes ssa-u8afb37fc {
+@-webkit-keyframes ssa-ub9aeae40 {
   from {
     left: 0px; }
   to {
     left: 500px; } }
 
-@-moz-keyframes ssa-u8afb37fc {
+@-moz-keyframes ssa-ub9aeae40 {
   from {
     left: 0px; }
   to {
     left: 500px; } }
 
-@keyframes ssa-u8afb37fc {
+@keyframes ssa-ub9aeae40 {
   from {
     left: 0px; }
   to {

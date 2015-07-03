@@ -26,9 +26,7 @@
 //	}
 
 @mixin keyframes($name) {
-	@at-root {
-		@-webkit-keyframes #{$name} { @content; }
-		@-moz-keyframes #{$name} { @content; }
-		@keyframes #{$name} { @content; }
-	}
+	@-webkit-keyframes #{$name} { @content; }
+	@-moz-keyframes #{$name} { @content; }
+	@keyframes #{$name} { @content; }
 }
