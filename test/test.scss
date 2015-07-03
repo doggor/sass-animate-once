@@ -18,4 +18,13 @@ div#2 {
 		to { left: 500px }
 	}
 	
+	div#3 {
+		span.inner {
+			@include animate(8s) {
+				from { color: yellow; }
+				to { color: blue; }
+			}
+		}
+	}
+	
 }

@@ -1,9 +1,9 @@
 div#1 {
-  -webkit-animation: ssa-u8d07cede 5s infinite;
-  -moz-animation: ssa-u8d07cede 5s infinite;
-  animation: ssa-u8d07cede 5s infinite; }
+  -webkit-animation: ssa-ufad8a79b 5s infinite;
+  -moz-animation: ssa-ufad8a79b 5s infinite;
+  animation: ssa-ufad8a79b 5s infinite; }
 
-@-webkit-keyframes ssa-u8d07cede {
+@-webkit-keyframes ssa-ufad8a79b {
   0% {
     background-color: red; }
   50% {
@@ -11,7 +11,7 @@ div#1 {
   100% {
     background-color: red; } }
 
-@-moz-keyframes ssa-u8d07cede {
+@-moz-keyframes ssa-ufad8a79b {
   0% {
     background-color: red; }
   50% {
@@ -19,7 +19,7 @@ div#1 {
   100% {
     background-color: red; } }
 
-@keyframes ssa-u8d07cede {
+@keyframes ssa-ufad8a79b {
   0% {
     background-color: red; }
   50% {
@@ -28,24 +28,46 @@ div#1 {
     background-color: red; } }
 
 div#2 {
-  -webkit-animation: ssa-ub9aeae40 12s linear;
-  -moz-animation: ssa-ub9aeae40 12s linear;
-  animation: ssa-ub9aeae40 12s linear; }
+  -webkit-animation: ssa-ua58a313c 12s linear;
+  -moz-animation: ssa-ua58a313c 12s linear;
+  animation: ssa-ua58a313c 12s linear; }
 
-@-webkit-keyframes ssa-ub9aeae40 {
+@-webkit-keyframes ssa-ua58a313c {
   from {
     left: 0px; }
   to {
     left: 500px; } }
 
-@-moz-keyframes ssa-ub9aeae40 {
+@-moz-keyframes ssa-ua58a313c {
   from {
     left: 0px; }
   to {
     left: 500px; } }
 
-@keyframes ssa-ub9aeae40 {
+@keyframes ssa-ua58a313c {
   from {
     left: 0px; }
   to {
     left: 500px; } }
+  div#2 div#3 span.inner {
+    -webkit-animation: ssa-ufb30534d 8s;
+    -moz-animation: ssa-ufb30534d 8s;
+    animation: ssa-ufb30534d 8s; }
+
+@-webkit-keyframes ssa-ufb30534d {
+  from {
+    color: yellow; }
+  to {
+    color: blue; } }
+
+@-moz-keyframes ssa-ufb30534d {
+  from {
+    color: yellow; }
+  to {
+    color: blue; } }
+
+@keyframes ssa-ufb30534d {
+  from {
+    color: yellow; }
+  to {
+    color: blue; } }
