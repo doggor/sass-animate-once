@@ -28,7 +28,7 @@ div {
 	from { background-color: red; }
 	to   { background-color: green; }
 }
-@keyframes #{$name}(ssa-u8a16c123) {
+@keyframes(ssa-u8a16c123) {
 	from { background-color: red; }
 	to   { background-color: green; }
 }
