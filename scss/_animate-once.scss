@@ -2,7 +2,7 @@
 //
 //Example:
 //	div {
-//		@include animate(10s infinite) {
+//		@include animate-once(10s infinite) {
 //			from { background-color: red; }
 //			to   { background-color: green; }
 //	}
@@ -34,9 +34,9 @@
 @import "keyframes";
 
 
-@mixin animate($params) {
+@mixin animate-once($params) {
 	//get a random, unique name for the animation
-	$uniqueName: unquote("ssa-#{unique_id()}");
+	$uniqueName: unquote("sao-#{unique_id()}");
 	
 	//add animation properties
 	@include animation( join($uniqueName, $params) );

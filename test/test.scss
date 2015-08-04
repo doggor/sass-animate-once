@@ -1,9 +1,9 @@
-@import "../scss/animate";
+@import "../scss/animate-once";
 
 
 div#1 {
 	
-	@include animate(5s infinite) {
+	@include animate-once(5s infinite) {
 		0% { background-color: red; }
 		50% { background-color: green; }
 		100% { background-color: red; }
@@ -13,14 +13,14 @@ div#1 {
 
 div#2 {
 	
-	@include animate(12s linear) {
+	@include animate-once(12s linear) {
 		from { left: 0px; }
 		to { left: 500px }
 	}
 	
 	div#3 {
 		span.inner {
-			@include animate(8s) {
+			@include animate-once(8s) {
 				from { color: yellow; }
 				to { color: blue; }
 			}

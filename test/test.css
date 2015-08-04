@@ -1,9 +1,9 @@
 div#1 {
-  -webkit-animation: ssa-ufad8a79b 5s infinite;
-  -moz-animation: ssa-ufad8a79b 5s infinite;
-  animation: ssa-ufad8a79b 5s infinite; }
+  -webkit-animation: sao-u68aa09e3 5s infinite;
+  -moz-animation: sao-u68aa09e3 5s infinite;
+  animation: sao-u68aa09e3 5s infinite; }
 
-@-webkit-keyframes ssa-ufad8a79b {
+@-webkit-keyframes sao-u68aa09e3 {
   0% {
     background-color: red; }
   50% {
@@ -11,7 +11,7 @@ div#1 {
   100% {
     background-color: red; } }
 
-@-moz-keyframes ssa-ufad8a79b {
+@-moz-keyframes sao-u68aa09e3 {
   0% {
     background-color: red; }
   50% {
@@ -19,7 +19,7 @@ div#1 {
   100% {
     background-color: red; } }
 
-@keyframes ssa-ufad8a79b {
+@keyframes sao-u68aa09e3 {
   0% {
     background-color: red; }
   50% {
@@ -28,45 +28,45 @@ div#1 {
     background-color: red; } }
 
 div#2 {
-  -webkit-animation: ssa-ua58a313c 12s linear;
-  -moz-animation: ssa-ua58a313c 12s linear;
-  animation: ssa-ua58a313c 12s linear; }
+  -webkit-animation: sao-u40f8fd98 12s linear;
+  -moz-animation: sao-u40f8fd98 12s linear;
+  animation: sao-u40f8fd98 12s linear; }
 
-@-webkit-keyframes ssa-ua58a313c {
+@-webkit-keyframes sao-u40f8fd98 {
   from {
     left: 0px; }
   to {
     left: 500px; } }
 
-@-moz-keyframes ssa-ua58a313c {
+@-moz-keyframes sao-u40f8fd98 {
   from {
     left: 0px; }
   to {
     left: 500px; } }
 
-@keyframes ssa-ua58a313c {
+@keyframes sao-u40f8fd98 {
   from {
     left: 0px; }
   to {
     left: 500px; } }
   div#2 div#3 span.inner {
-    -webkit-animation: ssa-ufb30534d 8s;
-    -moz-animation: ssa-ufb30534d 8s;
-    animation: ssa-ufb30534d 8s; }
+    -webkit-animation: sao-u0d804d5d 8s;
+    -moz-animation: sao-u0d804d5d 8s;
+    animation: sao-u0d804d5d 8s; }
 
-@-webkit-keyframes ssa-ufb30534d {
+@-webkit-keyframes sao-u0d804d5d {
   from {
     color: yellow; }
   to {
     color: blue; } }
 
-@-moz-keyframes ssa-ufb30534d {
+@-moz-keyframes sao-u0d804d5d {
   from {
     color: yellow; }
   to {
     color: blue; } }
 
-@keyframes ssa-ufb30534d {
+@keyframes sao-u0d804d5d {
   from {
     color: yellow; }
   to {

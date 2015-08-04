@@ -1,5 +1,5 @@
 # sass-simple-animate
-An easy way to write css animation.<br><br>
+An easy way to write one-time css animation.<br><br>
 Is it quite often writing @keyframes for just one animation of certain selector? 
 Are they hard to manage?<br>
 *sass-simple-animate* give you a friendly approach to write such animations.
@@ -15,9 +15,9 @@ the animation property, without the need of naming and assigning. Let's take a l
 
 ###example
 ```scss
-@import "scss/animate"; //import the mixin
+@import "scss/animate-once"; //import the mixin
 div {
-    @include animate(5s linear infinite) {
+    @include animate-once(5s linear infinite) {
         from { background-color: red; }
     	to   { background-color: green; }
     }
@@ -50,7 +50,7 @@ div {
 <selector> {
     //paramters are same as CSS animation's porperty values
     //except that NO animation-name here (it will be auto generated)
-    @include animate([duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]) {
+    @include animate-once([duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]) {
         [keyframes content] //the content of you write in the keyframes
         }
 }
