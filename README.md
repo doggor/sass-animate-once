@@ -59,7 +59,7 @@ div {
 ###installation
 Copy all files under /scss folder into your project or repository, and use it with other sass and scss code.
 
-##bower
+####bower
 ```
 bower install sass-animate-once
 ```
