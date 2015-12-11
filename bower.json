@@ -1,0 +1,28 @@
+{
+  "name": "sass-animate-once",
+  "homepage": "https://github.com/dogdoglization/sass-animate-once",
+  "description": "An easy way to write one-time css animation.",
+  "main": [
+	  "scss/_animation.scss",
+	  "scss/_keyframes.scss",
+	  "scss/_animate-once.scss"
+	  ],
+  "moduleType": [],
+  "keywords": [
+    "sass",
+    "animate",
+    "css",
+    "animation",
+    "ont",
+    "time"
+  ],
+  "authors": [
+    {"name": "Andy Ching", "email": "dogdoglization@gmail.com"}
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
