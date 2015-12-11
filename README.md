@@ -1,16 +1,16 @@
 # sass-simple-animate
 An easy way to write one-time css animation.<br><br>
-Is it quite often writing @keyframes for just one animation of certain selector? 
+Is it quite often writing @keyframes for just one animation of certain selector?
 Are they hard to manage?<br>
 *sass-simple-animate* give you a friendly approach to write such animations.
 
 ###the idea
-To define an animation, we need writing a @keyframes block, naming it, 
-and assigning to the animation property of certain selector. 
-Knowing that the @keyframes block will not be reused in other selectors, 
+To define an animation, we need writing a @keyframes block, naming it,
+and assigning to the animation property of certain selector.
+Knowing that the @keyframes block will not be reused in other selectors,
 we have to ensure that the name is unique even it is nested in sass/scss.<br>
 It seems too inefficient. Why not make it one piece?<br>
-*sass-simple-animate* just let you define the @keyframes block content along with 
+*sass-simple-animate* just let you define the @keyframes block content along with
 the animation property, without the need of naming and assigning. Let's take a look:
 
 ###example
@@ -58,6 +58,11 @@ div {
 
 ###installation
 Copy all files under /scss folder into your project or repository, and use it with other sass and scss code.
+
+##bower
+```
+bower install sass-animate-once
+```
 
 ###pre-requirement
 libsass 3.2.5+, or use the last version of Sass will be fine.
