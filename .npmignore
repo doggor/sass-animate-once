@@ -1,0 +1,8 @@
+node_modules
+.git
+.project
+.log
+[Tt]humbs.db
+*.DS_Store
+~*
+test/
