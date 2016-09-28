@@ -59,6 +59,11 @@ div {
 ###installation
 Copy all files under /scss folder into your project or repository, and use it with other sass and scss code.
 
+####npm
+```
+npm i sass-animate-once
+```
+
 ####bower
 ```
 bower install sass-animate-once
