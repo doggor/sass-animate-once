@@ -1,0 +1,31 @@
+{
+  "name": "sass-animate-once",
+  "version": "2.0.0",
+  "description": "An easy way to write one-time css animation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogdoglization/sass-animate-once.git"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "animation",
+    "animate",
+    "once",
+    "one",
+    "time"
+  ],
+  "author": "Andy Ching",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogdoglization/sass-animate-once/issues"
+  },
+  "homepage": "https://github.com/dogdoglization/sass-animate-once#readme"
+}
