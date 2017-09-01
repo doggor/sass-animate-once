@@ -1,7 +1,12 @@
 @import "true";
 @import "../sass/animate-once";
+// override sass function for testings
+@function unique_id() {
+    @return dummy-unique-id
+}
+
 @include test-module('animate-once mixin') {
-    @include test('output correct animation properties') {
+    @include it('output named animation') {
         @include assert {
             @include output {
                 @include animate-once(5s linear infinite, $animationName: test) {
@@ -39,6 +44,49 @@
                     }
                     to {
                         background-color: green;
+                    }
+                }
+            }
+        }
+    }
+    @include it('output auto-named animation') {
+        @include assert {
+            @include output {
+                @include animate-once(1s ease) {
+                    0% {
+                        top: 100%;
+                    }
+                    100% {
+                        top: 0%;
+                    }
+                }
+            }
+            @include expect {
+                -webkit-animation: sao-dummy-unique-id 1s ease;
+                -moz-animation: sao-dummy-unique-id 1s ease;
+                animation: sao-dummy-unique-id 1s ease;
+                @-webkit-keyframes sao-dummy-unique-id {
+                    0% {
+                        top: 100%;
+                    }
+                    100% {
+                        top: 0%;
+                    }
+                }
+                @-moz-keyframes sao-dummy-unique-id {
+                    0% {
+                        top: 100%;
+                    }
+                    100% {
+                        top: 0%;
+                    }
+                }
+                @keyframes sao-dummy-unique-id {
+                    0% {
+                        top: 100%;
+                    }
+                    100% {
+                        top: 0%;
                     }
                 }
             }
