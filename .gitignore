@@ -1,6 +1,6 @@
+[Tt]humbs.db
+.DS_Store
 node_modules
 .project
-.log
-[Tt]humbs.db
-*.DS_Store
+*.log
 ~*
