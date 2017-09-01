@@ -1,0 +1,14 @@
+@mixin animate-once($params, $animationName: unquote("sao-#{unique_id()}")) {
+    -webkit-animation: join($animationName, $params);
+    -moz-animation: join($animationName, $params);
+    animation: join($animationName, $params);
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
