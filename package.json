@@ -1,31 +1,42 @@
 {
-  "name": "sass-animate-once",
-  "version": "2.0.1",
-  "description": "An easy way to write one-time css animation",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dogdoglization/sass-animate-once.git"
-  },
-  "keywords": [
-    "scss",
-    "sass",
-    "animation",
-    "animate",
-    "once",
-    "one",
-    "time"
-  ],
-  "author": "Andy Ching",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dogdoglization/sass-animate-once/issues"
-  },
-  "homepage": "https://github.com/dogdoglization/sass-animate-once#readme"
+    "name": "sass-animate-once",
+    "version": "2.0.1",
+    "description": "An easy way to write one-time css animation",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dogdoglization/sass-animate-once.git"
+    },
+    "keywords": [
+        "scss",
+        "sass",
+        "animation",
+        "animate",
+        "once",
+        "one",
+        "time"
+    ],
+    "author": "Andy Ching",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dogdoglization/sass-animate-once/issues"
+    },
+    "homepage": "https://github.com/dogdoglization/sass-animate-once#readme",
+    "eyeglass": {
+        "needs": "^1.0",
+        "name": "animate-once",
+        "sassDir": "./sass/",
+        "exports": false
+    },
+    "devDependencies": {
+        "eyeglass": "^1.2.1",
+        "mocha": "^3.5.0",
+        "sass-true": "^3.0.0"
+    }
 }
