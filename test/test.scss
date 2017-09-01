@@ -1,30 +1,47 @@
-@import "../scss/animate-once";
-
-
-div#1 {
-	
-	@include animate-once(5s infinite) {
-		0% { background-color: red; }
-		50% { background-color: green; }
-		100% { background-color: red; }
-	}
-	
-}
-
-div#2 {
-	
-	@include animate-once(12s linear) {
-		from { left: 0px; }
-		to { left: 500px }
-	}
-	
-	div#3 {
-		span.inner {
-			@include animate-once(8s) {
-				from { color: yellow; }
-				to { color: blue; }
-			}
-		}
-	}
-	
+@import "true";
+@import "../sass/animate-once";
+@include test-module('animate-once mixin') {
+    @include test('output correct animation properties') {
+        @include assert {
+            @include output {
+                @include animate-once(5s linear infinite, $animationName: test) {
+                    from {
+                        background-color: red;
+                    }
+                    to {
+                        background-color: green;
+                    }
+                }
+            }
+            @include expect {
+                -webkit-animation: test 5s linear infinite;
+                -moz-animation: test 5s linear infinite;
+                animation: test 5s linear infinite;
+                @-webkit-keyframes test {
+                    from {
+                        background-color: red;
+                    }
+                    to {
+                        background-color: green;
+                    }
+                }
+                @-moz-keyframes test {
+                    from {
+                        background-color: red;
+                    }
+                    to {
+                        background-color: green;
+                    }
+                }
+                @keyframes test {
+                    from {
+                        background-color: red;
+                    }
+                    to {
+                        background-color: green;
+                    }
+                }
+            }
+        }
+    }
 }
