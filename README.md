@@ -51,19 +51,14 @@ div {
 ```
 
 ## Installation
-The suggested way is to copy the file sass/animate-once.scss to your project.
+The suggested way is to copy the file sass/animate-once.scss to your project:
 
 ### npm
 ```sh
 npm i sass-animate-once
 ```
 
-### yarn
+## Testing
 ```sh
-yarn add sass-animate-once
-```
-
-### bower
-```sh
-bower install sass-animate-once
+npm test
 ```

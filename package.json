@@ -35,8 +35,8 @@
         "exports": false
     },
     "devDependencies": {
-        "eyeglass": "^1.2.1",
-        "mocha": "^3.5.0",
-        "sass-true": "^3.0.0"
+        "eyeglass": "^1.6.0",
+        "mocha": "^6.2.0",
+        "sass-true": "^3.1.0"
     }
 }
