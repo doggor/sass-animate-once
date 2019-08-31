@@ -20,19 +20,19 @@ div {
 will be compiled to:
 ```css
 div {
-	-webkit-animation: ssa-u8a16c123 5s linear infinite;
-	-moz-animation: ssa-u8a16c123 5s linear infinite;
-	animation: ssa-u8a16c123 5s linear infinite;
+	-webkit-animation: sao-u8a16c123 5s linear infinite;
+	-moz-animation: sao-u8a16c123 5s linear infinite;
+	animation: sao-u8a16c123 5s linear infinite;
 }
-@-webkit-keyframes(ssa-u8a16c123) {
+@-webkit-keyframes sao-u8a16c123 {
 	from { background-color: red; }
 	to   { background-color: green; }
 }
-@-moz-keyframes(ssa-u8a16c123) {
+@-moz-keyframes sao-u8a16c123 {
 	from { background-color: red; }
 	to   { background-color: green; }
 }
-@keyframes(ssa-u8a16c123) {
+@keyframes sao-u8a16c123 {
 	from { background-color: red; }
 	to   { background-color: green; }
 }
